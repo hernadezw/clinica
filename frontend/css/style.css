@@ -1,0 +1,19 @@
+:root { --brand: #0d6efd; --brand-dark: #0a3d91; }
+
+.hero {
+  background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+  color: #fff;
+  padding: 6rem 0;
+}
+
+.login-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+}
+
+/* Dashboard */
+.sidebar { width: 240px; min-height: 100vh; background: #12203a; }
+.sidebar .nav-link { color: #c7d2e5; border-radius: .5rem; }
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active { background: rgba(255,255,255,.12); color: #fff; }
+.stat-card { border: 0; border-left: 5px solid var(--brand); }
